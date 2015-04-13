@@ -172,9 +172,5 @@ public class TestCalendar {
 		}	
 	}
 	
-	@Test
-	public void case6(){
-		
-	}
 	
 }
