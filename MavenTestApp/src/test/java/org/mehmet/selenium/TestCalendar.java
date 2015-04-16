@@ -79,7 +79,7 @@ public class TestCalendar {
 	 */
 	@Test
 	public void case1() {
-		/*int day = getCuttentDay() - 1;
+		int day = getCuttentDay() - 1;
 		element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("" + day)));
 		element.click();
 		driver.findElement(By.cssSelector("input.calendar-cancel"));
@@ -89,7 +89,7 @@ public class TestCalendar {
 			System.err.println("Warning message is there");
 		} catch (org.openqa.selenium.TimeoutException e) {
 			System.err.println("Warning message is not there");
-		}*/
+		}
 	}
 	
 	/**
