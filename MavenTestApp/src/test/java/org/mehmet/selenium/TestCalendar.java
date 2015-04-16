@@ -34,21 +34,20 @@ public class TestCalendar {
 	
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		/*driver = new FirefoxDriver();
+		driver = new FirefoxDriver();
 		wait = new WebDriverWait(driver, 5);
 		driver.get("http://demos.smartgift.it/community/index.php/linen-blazer-610.html");
-		driver.manage().window().maximize();*/
+		driver.manage().window().maximize();
 	}
 
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
-		/*Thread.sleep(3000);
-		driver.close();*/
+		driver.close();
 	}
 
 	@Before
 	public void setUp() throws Exception {
-		/*driver.findElement(By.name("add_as_gift")).click();
+		driver.findElement(By.name("add_as_gift")).click();
 		element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("nxtBtn")));
 		element.click();
 		element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("recipientFirstName")));
@@ -63,14 +62,14 @@ public class TestCalendar {
 		driver.findElement(By.xpath("//section[@id='smartgift-info']/article[2]/div[2]/label[2]")).click();
 		
 		element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("deliveryDate")));
-		element.click();*/
+		element.click();
 		
 	}
 
 	@After
 	public void tearDown() throws Exception {
-		/*Thread.sleep(3000);
-		driver.findElement(By.cssSelector("#smartgift_page2 > div.smartgift-header > div.link-close-wrapper > div.link-close")).click();*/
+		Thread.sleep(3000);
+		driver.findElement(By.cssSelector("#smartgift_page2 > div.smartgift-header > div.link-close-wrapper > div.link-close")).click();
 	}
 
 	/**
@@ -80,7 +79,7 @@ public class TestCalendar {
 	 */
 	@Test
 	public void case1() {
-	/*	int day = getCuttentDay() - 1;
+		/*int day = getCuttentDay() - 1;
 		element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("" + day)));
 		element.click();
 		driver.findElement(By.cssSelector("input.calendar-cancel"));
