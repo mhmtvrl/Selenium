@@ -79,7 +79,7 @@ public class TestCalendar {
 	 */
 	@Test
 	public void case1() {
-		/*int day = getCuttentDay() - 1;
+		int day = getCuttentDay() - 1;
 		element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("" + day)));
 		element.click();
 		driver.findElement(By.cssSelector("input.calendar-cancel"));
@@ -89,7 +89,7 @@ public class TestCalendar {
 			System.err.println("Warning message is there");
 		} catch (org.openqa.selenium.TimeoutException e) {
 			System.err.println("Warning message is not there");
-		}*/
+		}
 	}
 	
 	/**
@@ -99,7 +99,7 @@ public class TestCalendar {
 	 */
 	@Test
 	public void case2() {
-		/*int day = getCuttentDay();
+		int day = getCuttentDay();
 		element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("" + day)));
 		element.click();
 		driver.findElement(By.cssSelector("input.calendar-cancel"));
@@ -109,7 +109,7 @@ public class TestCalendar {
 			System.err.println("Warning message is there");
 		} catch (org.openqa.selenium.TimeoutException e) {
 			System.err.println("Warning message is not there");
-		}	*/	
+		}		
 	}
 	
 	/**
@@ -118,7 +118,7 @@ public class TestCalendar {
 	 */
 	@Test
 	public void case3() {
-	/*	int day = getCuttentDay() + 1;
+		int day = getCuttentDay() + 1;
 		element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("" + day)));
 		element.click();
 		driver.findElement(By.cssSelector("input.calendar-cancel"));
@@ -128,7 +128,7 @@ public class TestCalendar {
 			System.err.println("Warning message is there");
 		} catch (org.openqa.selenium.TimeoutException e) {
 			System.err.println("Warning message is not there");
-		}	*/
+		}	
 	}
 	
 	/**
@@ -138,7 +138,7 @@ public class TestCalendar {
 	 */
 	@Test
 	public void case4() {
-	/*	int day = getCuttentDay() + 15;
+		int day = getCuttentDay() + 15;
 		element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("" + day)));
 		element.click();
 		driver.findElement(By.cssSelector("input.calendar-cancel"));
@@ -148,7 +148,7 @@ public class TestCalendar {
 			System.err.println("Warning message is there");
 		} catch (org.openqa.selenium.TimeoutException e) {
 			System.err.println("Warning message is not there");
-		}	*/
+		}	
 	}
 	
 	/**
@@ -158,7 +158,7 @@ public class TestCalendar {
 	 */
 	@Test
 	public void case5() {
-	/*	int day = getCuttentDay() + 16;
+		int day = getCuttentDay() + 16;
 		element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("" + day)));
 		element.click();
 		driver.findElement(By.cssSelector("input.calendar-cancel"));
@@ -168,9 +168,7 @@ public class TestCalendar {
 			System.err.println("Warning message is there");
 		} catch (org.openqa.selenium.TimeoutException e) {
 			System.err.println("Warning message is not there");
-		}	*/
+		}	
 	}
-	
-	
 	
 }
